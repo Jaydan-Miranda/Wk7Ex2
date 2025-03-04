@@ -44,6 +44,7 @@ namespace Wk7Ex2
                 Console.WriteLine($"Author: {deserializedBook.Author}");
                 Console.WriteLine($"Year: {deserializedBook.Year}");
             }
+            Console.ReadLine();
         }
 
         // Method to serialize a Book object to a JSON file
